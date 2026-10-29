@@ -2,7 +2,10 @@
 import numpy as np 
 from PIL import UnidentifiedImageError
 from PIL import Image 
-from data_config import IMG_SIZE 
+try:
+    from .data_config import IMG_SIZE
+except (ImportError, ValueError):
+    from data_config import IMG_SIZE
 
 def image_feed(img_path:str)-> np.ndarray :
     try :
