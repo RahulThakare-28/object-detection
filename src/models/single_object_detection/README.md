@@ -87,3 +87,11 @@ $$\mathcal{L}_{\text{total}} = w_{\text{class}} \cdot \mathcal{L}_{\text{class}}
 | [sod_training.py] | Loads preprocessed `.npy` arrays, performs train/test splits, fits model, and saves checkpoints to `train_models/`. |
 | [sod_predict.py]| High-performance inference function `sod_predict(image)` with memory model caching and `compile=False`. |
 | [\_\_init\_\_.py] | Exposes `sod_modelv01`, `train_model`, and `sod_predict`. |
+ 
+---
+
+## 🖼️ UI Prediction Preview
+
+Screenshot of the single object detection model during inference, showing the detected animal breed, confidence percentage, and computed bounding box:
+
+![Single Object Detection Prediction Dashboard](../../../asset/predict.png)

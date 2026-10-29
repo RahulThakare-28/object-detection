@@ -4,6 +4,12 @@ An end-to-end Deep Learning system for **Single Object Detection (SOD)** built w
 
 ---
 
+## 🖥️ Web UI Preview
+
+![Single Object Detection Prediction Dashboard](asset/predict.png)
+
+---
+
 ## 🌟 Key Features
 
 - **Multi-Task Learning Architecture**: Single unified neural network with dual heads for simultaneous classification (37 classes) and bounding box regression (`[xmin, ymin, xmax, ymax]`).
@@ -22,6 +28,8 @@ An end-to-end Deep Learning system for **Single Object Detection (SOD)** built w
 
 ```text
 object-detection/
+├── asset/
+│   └── predict.png             # UI prediction screenshot
 ├── data/
 │   ├── voc-animal/             # Raw dataset (Pascal VOC .jpg images & .xml annotations)
 │   └── process-data/           # Preprocessed numpy arrays (.npy)
