@@ -13,9 +13,9 @@ except (ImportError, ValueError):
 
 def train_model():
     logging.info("Loading preprocess data")
-    x = np.load("../data/process-data/processImages.npy")
-    yc = np.load("../data/process-data/processLabels.npy")
-    ybb = np.load("../data/process-data/processBBoxes.npy")
+    x = np.load("data/process-data/processImages.npy")
+    yc = np.load("data/process-data/processLabels.npy")
+    ybb = np.load("data/process-data/processBBoxes.npy")
     logging.info("Data loaded successfully")
 
     logging.info("Spliting data into training and testing sets")
@@ -40,7 +40,7 @@ def train_model():
 
     logging.info("model trained successfully")
     logging.info("saving model")
-    model.save("../models/sod_model_v0.1.keras")
+    model.save("train_models/sod_model_v0.0.keras")
     logging.info("model saved successfully")
 
 if __name__ == "__main__":
