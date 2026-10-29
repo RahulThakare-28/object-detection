@@ -4,6 +4,7 @@ ANNOTATION_DIR = "data/voc-animal"
 
 
 IMAGE_SIZE = (256, 256) 
+IMG_SIZE = IMAGE_SIZE
 
 CLASS_MAP = {
     "dog:yorkshire_terrier":0,
