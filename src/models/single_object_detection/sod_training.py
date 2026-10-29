@@ -5,7 +5,10 @@ logging.basicConfig(level=logging.INFO)
 from sklearn.model_selection import train_test_split
 import numpy as np
 
-from sod_model import sod_modelv01
+try:
+    from .sod_model import sod_modelv01
+except (ImportError, ValueError):
+    from sod_model import sod_modelv01
 
 
 def train_model():
