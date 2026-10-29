@@ -83,7 +83,7 @@ $$\mathcal{L}_{\text{total}} = w_{\text{class}} \cdot \mathcal{L}_{\text{class}}
 
 | File | Description |
 | :--- | :--- |
-| [sod_model.py](file:///d:/GitHub/object-detection/src/models/single_object_detection/sod_model.py) | Defines `sod_modelv01()` architecture, loss functions, and compilation. |
-| [sod_training.py](file:///d:/GitHub/object-detection/src/models/single_object_detection/sod_training.py) | Loads preprocessed `.npy` arrays, performs train/test splits, fits model, and saves checkpoints to `train_models/`. |
-| [sod_predict.py](file:///d:/GitHub/object-detection/src/models/single_object_detection/sod_predict.py) | High-performance inference function `sod_predict(image)` with memory model caching and `compile=False`. |
-| [\_\_init\_\_.py](file:///d:/GitHub/object-detection/src/models/single_object_detection/__init__.py) | Exposes `sod_modelv01`, `train_model`, and `sod_predict`. |
+| [sod_model.py] | Defines `sod_modelv01()` architecture, loss functions, and compilation. |
+| [sod_training.py] | Loads preprocessed `.npy` arrays, performs train/test splits, fits model, and saves checkpoints to `train_models/`. |
+| [sod_predict.py]| High-performance inference function `sod_predict(image)` with memory model caching and `compile=False`. |
+| [\_\_init\_\_.py] | Exposes `sod_modelv01`, `train_model`, and `sod_predict`. |
