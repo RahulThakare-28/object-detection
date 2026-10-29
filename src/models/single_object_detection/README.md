@@ -90,8 +90,4 @@ $$\mathcal{L}_{\text{total}} = w_{\text{class}} \cdot \mathcal{L}_{\text{class}}
  
 ---
 
-## 🖼️ UI Prediction Preview
 
-Screenshot of the single object detection model during inference, showing the detected animal breed, confidence percentage, and computed bounding box:
-
-![Single Object Detection Prediction Dashboard](../../../asset/predict.png)

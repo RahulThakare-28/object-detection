@@ -148,6 +148,11 @@ Once launched, open the local URL (typically `http://localhost:8501`) in your br
 2. View real-time predictions with bounding box overlays, confidence scores, and coordinate metrics.
 
 ---
+## 🖼️ UI Prediction Preview
+
+Screenshot of the single object detection model during inference, showing the detected animal breed, confidence percentage, and computed bounding box:
+
+![Single Object Detection Prediction Dashboard](asset/predict.png)
 
 ### Step 5: Programmatic Inference (Python API)
 
