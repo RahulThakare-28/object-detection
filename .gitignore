@@ -1,4 +1,6 @@
 __pycache__/
 data/
 notebook/
+train_models/
 
+*.png
